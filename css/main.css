@@ -1148,9 +1148,8 @@ label {
   top: 9px;
   right: 6px;
   margin-left: auto;
-  padding: 8px 13px 9px 22px;
+  padding: 9px 13px 10px 22px;
   background: #DC7000;
-  z-index: 30px;
   border: none;
   border-radius: 8px !important;
 }
