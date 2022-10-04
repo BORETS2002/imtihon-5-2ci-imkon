@@ -1,0 +1,64 @@
+.citi {
+  padding-top: 83px;
+  padding-bottom: 165px;
+}
+
+.center-texts-box {
+  max-width: 825px;
+}
+.center-texts {
+  margin-bottom: 49px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 187.5%;
+  color: #222222;
+}
+.mini-left-text {
+  margin-bottom: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 187.5%;
+  color: #222222;
+}
+
+.citi-mini-text-box {
+  max-width: 545px;
+}
+.citi-mini-text {
+  margin: 0;
+   
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187.5%;
+  color: #525252;
+}
+.width-ofis-img {
+  width: 100%;
+  max-width: 1024px;
+}
+@media screen and (max-width: 768px) {
+  .citi {
+    padding-top: 48px;
+    padding-bottom: 101px;
+  }
+
+  .width-ofis-img-mob {
+    width: 100%;
+    max-width: 440px;
+    left: -40px;
+  }
+  .center-texts-box {
+    max-width: 293px;
+  }
+  .center-texts {
+    font-size: 16px;
+    line-height: 187.5%;
+    margin-bottom: 42px;
+  }
+}

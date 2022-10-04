@@ -1,0 +1,165 @@
+.carusel{
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 69px;
+  padding-bottom: 100px;
+  background: #F5F5F5;
+}
+
+.color-car{
+  margin: 0;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #DC0000; 
+}
+
+
+
+.color-car-box{
+  width: 140px;
+  margin-bottom: 19px;
+padding: 7px 35px 6px 14px;
+background-color: #dc00001a ;
+border-radius: 8px;
+}
+
+.car-big-texttwoo{
+  margin-bottom: 16px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 187.5%;
+color: #000;
+}
+.car-mini-text-twoo{
+  margin-bottom: 28px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 187.5%; 
+color: #525252;
+}
+.car-button{
+  align-items: center;
+  justify-content: end;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 187.5%; 
+  color: #DC7000;
+
+  &::after{
+content: "";
+display: block;
+width: 14px;
+height: 13px;
+margin-top: 3px;
+margin-left: 12px;
+background-image: url("/images/strelka.svg");
+background-repeat: no-repeat;
+background-size: contain;
+  }
+}
+.siyoh{
+  background: #b000dc1c;
+}
+.siyoh-text{
+  color: #B000DC;
+}
+.blu{
+  background: #0058dc17;
+}
+.blu-text{
+  color: #0058DC;
+}
+.gren-text{
+  color: #0CBE64;
+}
+.gren{
+  background: #0cbe6426;
+}
+.item{
+  width:  375px !important;
+  
+  
+  margin-right: 38px;
+  padding: 35px 44px 44px 35px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 94px #0000000d;
+  border-radius: 20px;
+
+}
+
+.carusel-text-box {
+  max-width: 545px;
+}
+.carusel-big {
+  margin-bottom: 32px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 187.5%; 
+color: #222222;
+}
+.carusel-mini {
+  margin-bottom: 65px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 187.5%;
+color: #525252;
+
+}
+
+@media screen and (max-width: 768px) {
+  .carusel{
+    padding-top: 55px;
+    padding-bottom: 140px;
+  }
+  .color-car-box{
+    margin-bottom: 17px;
+  }
+
+  .carusel-big {
+    font-size: 24px;
+line-height: 187.5%;
+  }
+  .carusel-mini {
+    margin-bottom: 33px;
+    font-size: 16px;
+    line-height: 187.5%;
+  }
+  .color-car {
+   
+    font-size: 14px;
+    line-height: 187.5%;
+  }
+  .car-big-texttwoo {
+    margin-bottom: 13px;
+    font-size: 20px;
+    line-height: 187.5%;
+  }
+
+  .car-mini-text-twoo{
+    margin-bottom: 6px;
+
+    font-size: 12px;
+    line-height: 187.5%;
+  }
+.item{
+  width: 299px !important;
+  margin: 0 auto;
+  
+  margin-right: 23px;
+}
+
+}

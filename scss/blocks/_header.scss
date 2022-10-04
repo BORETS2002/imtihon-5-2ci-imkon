@@ -1,0 +1,102 @@
+.aders-box {
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+.header-big-boss {
+  background-color: #e27808;
+}
+.navbar {
+  background-color: #e27808 !important;
+}
+
+.maps {
+  margin-right: 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #1a1a1a;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 15px;
+    margin-right: 12px;
+
+    background-image: url("/images/map.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.tel-hreft {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #1a1a1a;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    background-image: url("/images/telefon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.nav-item {
+  &:nth-child(1)::before {
+    content: "";
+    display: block;
+    margin-top: 14px;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  &:nth-child(2) {
+    margin-right: 74px;
+    margin-left: 87px;
+  }
+  &:nth-child(4) {
+    margin-right: 68px;
+    margin-left: 64px;
+  }
+}
+
+.btn-style {
+  padding: 10px 28px 11px 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #dc7000;
+  border: none;
+}
+
+.nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+@media screen and (max-width: 992px) {
+  .nav-item {
+    &:nth-child(1) {
+      justify-content: start !important;
+      &::before {
+        margin-right: 5px;
+      }
+    }
+    margin: 0 !important;
+  }
+}
